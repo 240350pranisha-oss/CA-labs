@@ -28,39 +28,10 @@ An open-source simulation environment provides a cost-effective platform for com
 
 A VHDL program mainly consists of:
 
-#### a) Library Declaration
 
-Libraries contain predefined packages and components required by the design.
 
-```vhdl
-library IEEE;
-use IEEE.STD_LOGIC_1164.ALL;
-```
 
-#### b) Entity Declaration
 
-The entity defines the input and output ports of the circuit.
-
-```vhdl
-entity AND_GATE is
-    Port (
-        A : in STD_LOGIC;
-        B : in STD_LOGIC;
-        Y : out STD_LOGIC
-    );
-end AND_GATE;
-```
-
-#### c) Architecture Body
-
-The architecture describes the behavior of the entity.
-
-```vhdl
-architecture Behavioral of AND_GATE is
-begin
-    Y <= A AND B;
-end Behavioral;
-```
 
 ### 2. Libraries and Packages
 
@@ -91,34 +62,7 @@ GHDL is an open-source VHDL simulator used for analysis, compilation, elaboratio
 * Works on Windows, Linux, and macOS.
 * Can generate waveform files for analysis.
 
-## Experimental Procedure
 
-1. Install GHDL simulator.
-2. Write the VHDL code for an AND gate.
-3. Create a testbench for simulation.
-4. Compile the design using GHDL.
-5. Run the simulation.
-6. Observe and verify the output waveform.
-
-## Sample VHDL Code
-
-```vhdl
-library IEEE;
-use IEEE.STD_LOGIC_1164.ALL;
-
-entity AND_GATE is
-    Port(
-        A : in STD_LOGIC;
-        B : in STD_LOGIC;
-        Y : out STD_LOGIC
-    );
-end AND_GATE;
-
-architecture Behavioral of AND_GATE is
-begin
-    Y <= A AND B;
-end Behavioral;
-```
 
 ## Observation
 
