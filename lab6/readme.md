@@ -1,8 +1,9 @@
-itle
+TITLE
 
-:Design and Implementation of a Combinational Circuit Code Converter Using VHDL
+Design and Implementation of a Combinational Circuit Code Converter Using VHDL
 
-Objective :To study the concept of combinational circuits. To understand different digital codes and code conversion. To design a code converter using VHDL. To simulate and verify the output using a VHDL simulator.
+Objective
+TO study the concept of combinational circuits. To understand different digital codes and code conversion. To design a code converter using VHDL. To simulate and verify the output using a VHDL simulator.
 
 INTRODUCTION:
 
