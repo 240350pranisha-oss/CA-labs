@@ -1,96 +1,12 @@
 Lab 5: VHDL Code for Combinational Circuits – Magnitude Comparator
 Objective
 To design and simulate a 2-bit magnitude comparator using VHDL.
-To understand how hardware comparison operations are implemented using logic gates and concurrent statements.
-Theory
+To understand how hardware comparison operations are implemented using logic gates and concurrent statements.  
+ 
+ Theory
 A magnitude comparator is a combinational circuit that compares two binary numbers, A and B, to determine their relative magnitude. It generates three distinct binary outputs: EQ (Equal), GT (Greater Than), and LT (Less Than).
 
-For a 2-bit comparator, the inputs are defined as:
 
-A
-=
-A
-1
-A
-0
-,
-B
-=
-B
-1
-B
-0
-
-The Boolean equations governing the outputs are:
-
-Equal (EQ):
-E
-Q
-=
-A
-1
-⊕
-B
-1
-―
-⋅
-A
-0
-⊕
-B
-0
-―
-
-Greater Than (GT):
-G
-T
-=
-A
-1
-B
-1
-―
-+
-(
-A
-1
-⊙
-B
-1
-)
-⋅
-A
-0
-B
-0
-―
-
-Less Than (LT):
-L
-T
-=
-A
-1
-―
-B
-1
-+
-(
-A
-1
-⊙
-B
-1
-)
-⋅
-A
-0
-―
-B
-0
-
-Output
-Comparator Simulation
 
 Discussion
 The comparator ensures mutually exclusive outputs: only one of EQ, GT, or LT is active at a time.
