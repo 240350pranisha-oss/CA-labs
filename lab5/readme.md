@@ -11,7 +11,25 @@ To verify the functionality through simulation
 
 THEORY:
 A comparator is a combinational logic circuit that compares two binary numbers. It produces three outputs:
+A combinational circuit is a digital logic circuit in which the output depends only on the present input values. These circuits do not contain memory elements such as flip-flops or latches, and therefore they have no storage capability. Every time the input changes, the output changes immediately after a small propagation delay.
 
+Some common examples of combinational circuits include:
+
+Adders
+Subtractors
+Multiplexers
+Demultiplexers
+Encoders
+Decoders
+Comparators
+
+The comparator is one of the most widely used combinational circuits because digital systems frequently need to compare binary numbers.
+
+3.2 Digital Comparator
+
+A digital comparator is a logic circuit used to compare two binary numbers. It determines whether:
+
+First number is greater than the second number.
 
 Discussion
 
