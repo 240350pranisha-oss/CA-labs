@@ -12,41 +12,12 @@ To verify the functionality through simulation
 THEORY:
 A comparator is a combinational logic circuit that compares two binary numbers. It produces three outputs:
 
-A > B (Greater)
-A = B (Equal)
-A < B (Less)
 
-For a 2-bit comparator:
+Discussion
 
-Inputs:
-A(1:0)
-B(1:0)
-Outputs:
-GT (Greater Than)
-EQ (Equal To)
-LT (Less Than)
+The comparator was successfully implemented using VHDL and tested through simulation. The generated outputs matched the expected results for all input combinations. This experiment demonstrated how conditional statements in VHDL can be used to implement digital comparison logic. It also highlighted the usefulness of simulation tools in verifying hardware functionality before implementation on FPGA hardware.
 
-Truth Table
-A	B	GT	EQ	LT
-00	00	0	1	0
-00	01	0	0	1
-01	00	1	0	0
-01	01	0	1	0
-10	01	1	0	0
-10	10	0	1	0
-11	10	1	0	0
-10	11	0	0	1
-Simulation Result
+9. Conclusion
 
-Expected outputs:
+The objective of designing and simulating a 2-bit combinational comparator using VHDL was successfully achieved. The comparator correctly determined whether one binary number was greater than, less than, or equal to another. The simulation results confirmed the correctness of the VHDL code for all tested input combinations. This experiment provided practical knowledge of combinational logic design, VHDL programming, and digital circuit simulation, which are fundamental skills for FPGA and digital system development.
 
-A	B	GT	EQ	LT
-00	00	0	1	0
-01	10	0	0	1
-11	10	1	0	0
-10	10	0	1	0
-00	11	0	0	1
-
-
-CONCLUSION:
-The 2-bit combinational comparator was successfully designed and implemented in VHDL. The simulation results verified that the circuit correctly identifies when input A is greater than, equal to, or less than input B, satisfying the expected behavior.
