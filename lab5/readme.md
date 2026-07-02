@@ -1,15 +1,15 @@
 LAB REPORT : VHDL Code for Combinational Circuit – Comparator 
  
  
-EXPERIMENTAL TITLE
+EXPERIMENTAL TITLE:
 Design and Implementation of a 2-Bit Comparator Using VHDL
 
-OBJECTIVE
+OBJECTIVE:
 To design a 2-bit combinational comparator using VHDL.
 To compare two binary numbers and determine whether one is greater than, less than, or equal to the other.
 To verify the functionality through simulation
 
-THEORY
+THEORY:
 A comparator is a combinational logic circuit that compares two binary numbers. It produces three outputs:
 
 A > B (Greater)
@@ -48,5 +48,5 @@ A	B	GT	EQ	LT
 00	11	0	0	1
 
 
-CONCLUSION
+CONCLUSION:
 The 2-bit combinational comparator was successfully designed and implemented in VHDL. The simulation results verified that the circuit correctly identifies when input A is greater than, equal to, or less than input B, satisfying the expected behavior.
