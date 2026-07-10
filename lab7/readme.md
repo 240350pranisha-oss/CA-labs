@@ -1,7 +1,7 @@
-Title: 
+## Title: 
 implementation and Simulation of Sequential Circuits (Flip-Flops) Using VHDL
 
-Objective:
+## Objective:
 
 To study the working principle of sequential circuits.
 To understand the operation of different types of flip-flops.
@@ -10,7 +10,7 @@ To simulate and verify the outputs using a VHDL simulator.
 Theory
 Sequential Circuits
 
-  Theory:
+  ## theory:
 A sequential circuit is a digital circuit whose output depends on both the present input and the previous state (memory). Unlike combinational circuits, sequential circuits store information using memory elements called flip-flops.
 
 Sequential circuits are widely used in digital electronics for storing binary information, counting, timing, synchronization, registers, memory devices, and processors.
@@ -37,14 +37,12 @@ Types of Flip-Flops
 3. T Flip-Flop
 
 
+## Discussion
 
-        
-
-        
+Sequential circuits are digital circuits whose output depends on both the current inputs and the previous state of the circuit. Unlike combinational circuits, they contain memory elements that store information. Flip-flops are the basic building blocks of sequential circuits and are widely used in digital systems such as registers, counters, memory units, and frequency dividers.
 
 
-.
-Conclusion:
+ ## conclusion:
 
 The experiment was successfully performed to study sequential circuits using flip-flops. VHDL code for the D Flip-Flop was written, compiled, and simulated successfully. The output waveform matched the expected behavior, confirming that the flip-flop stores one bit of data and updates its output only on the rising edge of the clock. This experiment provided a clear understanding of the operation and importance of flip-flops in sequential digital systems.
 The basic components of a sequential circuit are:
