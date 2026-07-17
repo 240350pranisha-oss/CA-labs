@@ -1,4 +1,12 @@
+Laboratory Report: VHDL Implementation of Sequential Counter
+1. Objective
+The aim of this experiment is to design, simulate, and analyze a sequential counter using VHDL. The counter should increment its value on each clock pulse and reset when a specified condition is met.
 
-Message Copilot
+2. Theory
+Sequential Circuits: Depend on both present inputs and past states (memory). Counters are a classic example.
 
-Smart
+Counters: Can be up-counters, down-counters, or modulo counters.
+
+VHDL: A hardware description language used to model digital systems. Sequential behavior is described using processes triggered by clock signals.
+
+3. Design Methodology
