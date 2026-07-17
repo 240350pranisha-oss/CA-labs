@@ -10,3 +10,10 @@ Counters: Can be up-counters, down-counters, or modulo counters.
 VHDL: A hardware description language used to model digital systems. Sequential behavior is described using processes triggered by clock signals.
 
 3. Design Methodology
+Define entity with inputs: clk, reset and output: count.
+
+Use a synchronous process sensitive to clk and reset.
+
+Increment count on rising edge of clk.
+
+Reset count to zero when reset is active.
