@@ -1,5 +1,5 @@
 ## Laboratory Report: VHDL Implementation of Sequential Counter
-1. Objective
+1. ## Objective
 The aim of this experiment is to design, simulate, and analyze a sequential counter using VHDL. The counter should increment its value on each clock pulse and reset when a specified condition is met.
 
 2. ## Theory
