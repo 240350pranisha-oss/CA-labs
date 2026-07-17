@@ -17,3 +17,14 @@ Use a synchronous process sensitive to clk and reset.
 Increment count on rising edge of clk.
 
 Reset count to zero when reset is active.
+ Applications
+Digital clocks
+
+Frequency dividers
+
+Timers
+
+Event counters in embedded systems
+
+7. Conclusion
+The sequential counter was successfully implemented in VHDL. Simulation verified correct operation, including reset and rollover behavior. This experiment demonstrates the use of VHDL for modeling synchronous sequential circuits.
